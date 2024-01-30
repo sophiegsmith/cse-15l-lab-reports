@@ -109,4 +109,8 @@ java Hello messages/en-us.txt
 - output is correct because the contents listed match the contents in the file when opened
 
 
+# WEEK 3 LAB REPORT
+
+
+
 
