@@ -109,7 +109,18 @@ java Hello messages/en-us.txt
 - output is correct because the contents listed match the contents in the file when opened
 
 
+</br>
+
+</br>
+
+
 # WEEK 3 LAB REPORT
+
+## PART 1
+**Writing a web server**
+
+In part 1, I wrote a piece of code called ChatServer. The goal of ChatServer is to keep track of a single string that gets added to by incoming requests.
+
 
 
 
