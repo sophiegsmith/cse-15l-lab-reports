@@ -199,13 +199,17 @@ Here is the code for ChatServer
 
 </br>
 
-![Image]()
+![Image](labreport2pic5.jpg)
+
+I was asked for my password, and not sure why
 
 </br>
 
 ## PART 3
 
 **Reflection**
+
+During this weeks lab, I thought setting up vscode and connecting to github went smoothly for me. However, part 2, was difficult for me and I honestly did not understand the instructions nor how to set up the key in local. I had some difficulties there, hence being asked for my password again. I will keep practicing with the material in part 2. 
 
  
 
