@@ -197,10 +197,15 @@ Here is the code for ChatServer
 
 **Using SSH key for logging into ieng on computer**
 
+</br>
+
+![Image](labreport2pic1.jpg)
+
+</br>
 
 ## PART 3
 
-
+**Reflection**
 
  
 
