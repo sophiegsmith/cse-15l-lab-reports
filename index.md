@@ -199,7 +199,7 @@ Here is the code for ChatServer
 
 </br>
 
-![Image](labreport2pic1.jpg)
+![Image]()
 
 </br>
 
