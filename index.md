@@ -121,7 +121,88 @@ java Hello messages/en-us.txt
 
 In part 1, I wrote a piece of code called ChatServer. The goal of ChatServer is to keep track of a single string that gets added to by incoming requests.
 
+![Image](labreport2pic3.jpg)
 
+Here is the code for ChatServer
+
+**Example 1**
+</br>
+ In this example we are using the piece of code `Add to url '/add-message?s=<string>&user=<string>` to add a message from a user
+ </br>
+![Image](labreport2pic1.jpg)
+</br>
+- method code calls: `public String handleRequest(URI url)` and `public static void main(String[] args) throws IOException`
+  - in these methods the arguments are passed through and calls on the class
+  - the string argument inputs get passed through the `if else if else` statement to add message
+  - it will also keep track of this first input message and will add to it since `k` value is being incremented so it will add and keep track of string from     
+     previous string input
+  - for second method it calls the other one to check port number to see if it is in range
+- relevant arguments:
+  - string inputs: `Sophie`, `Hello`, `Feed Beef`
+  - port inputs(command line): `4000`
+- relevant fields of the class:
+  - string variables:
+  ```
+  String output = "";
+  String message;
+  String user;
+  String temp;
+  ```
+  - int variables:
+  ```
+  int i = 0;
+  int j = 0;
+  ```
+- things I noticed from values in fields:
+  - first iteration of `if else if else` statement in `public String handleRequest(URI url)`
+  - changes null string variables of `messageHistory` and `userHistory` and replaces it with first string input from the user in web server
+  
+</br>
+
+**Example 2**
+
+</br>
+
+![Image](labreport2pic2.jpg)
+
+- method code calls: `public String handleRequest(URI url)` and `public static void main(String[] args) throws IOException`
+  - in these methods the arguments are passed through and calls on the class
+  - the string argument inputs get passed through the `if else if else` statement to add message
+  - it will also keep track of this first input message and will add to it since `k` value is being incremented so it will add and keep track of string from     
+     previous string input
+  - for second method it calls the other one to check port number to see if it is in range
+- relevant arguments:
+  - string inputs: `Sophie`, `Hello`, `Feed Beef`
+  - port inputs(command line): `4000`
+- relevant fields of the class:
+  - string variables:
+  ```
+  String output = "";
+  String message;
+  String user;
+  String temp;
+  ```
+  - int variables:
+  ```
+  int i = 0;
+  int j = 0;
+  ```
+- things I noticed:
+  - after the first iteration through `if else if else` statement (shown in example 1) the value that changed was `userHistory` because it goes through and gets 
+    incremented to show the output in pic above (example 2)
+  - `messageHistory` also changes to keep track of old string and this is done in the `if else if else` statement in method `public String handleRequest(URI url)`
+  - iterates through `if else if` for a second time
+
+## PART 2
+
+**Using SSH key for logging into ieng on computer**
+
+
+## PART 3
+
+
+
+ 
 
 
 
