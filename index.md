@@ -235,10 +235,10 @@ During this weeks lab, I thought setting up vscode and connecting to github went
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i ++) {
-        newArray[i] = arr[arr.length - i - 1];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
     }
-    return newArray;
+    return arr;
   }
 ```
 
@@ -249,11 +249,162 @@ static int[] reversed(int[] arr) {
     assertArrayEquals(new int[]{1, 2, 3}, ArrayExamples.reversed(input1)); //expected output
   }
 ```
-![Image](.jpg)
+![Image](labreport3pic1.jpg)
 
 - this is a failure-inducing input because the expected reverse would be `3, 1, 2`
 - the output above is correct
-- 
+
+**Example 2 - Input that does not Induce Failure**
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+```
+ @Test
+  public void testReversed() {
+    int[] input1 = {1, 2, 3}; //input
+    assertArrayEquals(new int[]{1, 2, 3}, ArrayExamples.reversed(input1)); //expected output
+  }
+```
+
+![Image](labreport3pic2.jpg)
+
+- this is a non-failure inducing input because expected matches with input
+- the output above is correct
+
+**Example 3: the symptom**
+
+![Image](labreport3pic1.jpg)
+
+- we see that the code fails: so the symptom must be the symptom must be dependent on the input
+
+**Example 4 - Fixing the code**
+
+Before:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+After:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i ++) {
+        newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+Running JUnit:
+
+![Image](labreport3pic2.jpg)
+
+Correct Output after code change:
+
+```
+keke:lab3 ssmith$ javac ArrayExamples.java
+keke:lab3 ssmith$ java ArrayExamples
+3 2 1
+```
+
+- the fix addresses the issue because the input is taken in as an array and put into the new array
+
+# PART 2 - RESEARCHING COMMANDS
+
+- command for research: `grep`
+
+- sources:
+  
+my terminal:
+
+![Image](labreport3pic3.jpg)
+
+- ex: `grep -A num`
+- what it does: Print num lines of trailing context after each match.
+  
+chatgpt:
+
+![Image](labreport3pic4.jpg)
+
+- ex: `grep -i`
+- what it does: Ignore case distinctions in both the pattern and the input files.
+
+geeksforgeeks:
+
+[geeksforgeeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+
+- ex: `grep -c [pattern] <filename>`
+- what it does: This prints only a count of the lines that match a pattern
+
+rockspace technology: 
+
+[rockspace technology](https://docs.rackspace.com/docs/use-the-linux-grep-command)
+
+- ex: `grep -v`
+- what it does: Prints lines not matching criteria 
+
+freeCodeCamp:
+
+[freeCodeCamp](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+
+- ex: `grep -w`
+- what it does: Find the exact matching word from the input file or string.
+
+DigitalOcean:
+
+[DigitalOcean](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
+
+- ex: `grep -r "string-name" *`
+- what it does: wish to search for a string in your current directory and all other subdirectories,
+
+
+Using last week's material: 
+
+```
+keke:docsearch ssmith$ grep -c "unix" find-results.txt
+0
+keke:docsearch ssmith$
+```
+- what its doing: finding number of lines that matches of a given string
+- why its useful: if you want to find how long a certaing word is in a file 
+
+
+```
+keke:docsearch ssmith$ grep -w "open" find-results.txt
+keke:docsearch ssmith$ 
+```
+- what its doing: searching for the line containing the exact matching word 
+- why its useful: if youre looking for a word and the file is too big, in this example i showed a case where the word open was not in the `find-results.txt` file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
