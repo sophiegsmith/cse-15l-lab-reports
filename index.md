@@ -207,19 +207,22 @@ Here is the code for ChatServer
 
 - absolute path of public key:
 
-![Image](labreport2pic7.jpg)
+![Image](labreport2pic10.jpg)
+
+- this is the right output after running the command `ls` because it shows the file in there
+
 
 - absolute path of private key:
 
-![Image](labreport2pic8.jpg)
+![Image](labreport2pic9.jpg)
 
+- this is the right output after running the command `ls -l` because it is showing directories and files that have been edited or written
 
 ## PART 3
 
 **Reflection**
 
-During this weeks lab, I thought setting up vscode and connecting to github went smoothly for me. However, part 2, was difficult for me and I honestly did not understand the instructions nor how to set up the key in local. I had some difficulties there, hence being asked for my password again. I will keep practicing with the material in part 2. 
-
+During this weeks lab, I thought setting up vscode and connecting to github went smoothly for me. I thought it was interesting to see how similar it is to the environment in [prarie test](https://us.prairietest.com/). After some more practice, I understand how to run a server by using commands such as `javac` and `java`. By taking five minutes out of my day to practice this I got better at it. For **Part2**, after re-reading the instructions and looking through the comments on gradescope, I understand where I made my mistakes. I think I learned more skills that helpled me in the skilldemo.
  
 
 
