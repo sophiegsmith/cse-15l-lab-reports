@@ -199,13 +199,20 @@ Here is the code for ChatServer
 
 **Using SSH key for logging into ieng on computer**
 
-</br>
+- logging into ieng without being asked for the password:
 
-![Image](labreport2pic5.jpg)
+![Image](labreport2pic6.jpg)
 
-I was asked for my password, and not sure why
+- this is the correct output because it shows that I am logging into the instititution with my ieng account
 
-</br>
+- absolute path of public key:
+
+![Image](labreport2pic7.jpg)
+
+- absolute path of private key:
+
+![Image](labreport2pic8.jpg)
+
 
 ## PART 3
 
