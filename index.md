@@ -226,4 +226,36 @@ During this weeks lab, I thought setting up vscode and connecting to github went
  
 
 
+# Week 5 Lab Report 3
+
+## PART 1 - BUGS
+
+**Example 1 - Failure Inducing Input**
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i ++) {
+        newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+```
+ @Test
+  public void testReversed() {
+    int[] input1 = {2, 1, 3}; //input
+    assertArrayEquals(new int[]{1, 2, 3}, ArrayExamples.reversed(input1)); //expected output
+  }
+```
+![Image](.jpg)
+
+- this is a failure-inducing input because the expected reverse would be `3, 1, 2`
+- the output above is correct
+- 
+
+
+
+
 
