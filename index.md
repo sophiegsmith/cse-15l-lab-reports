@@ -43,7 +43,7 @@ keys pressed: To acces the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13
 
 ![Image](labreport4pic6.jpg)
 
-keys pressed: To access my commit message: `git commit -m "changed index1 to index2"`, I had to press `<up><up><up><enter>` since this line was 3 up, and this was how I accessed this command. After, I had to press `<up><up><enter>` to access my `git add ListExamples.java`. Finally, to push my work into github I just had to use `<up><enter>` to acces my `git push`. This is where my commands were sitting in the history. However I ran into an issue to push to my github even though the `git commit` and `git add` worked fine. The only problem I ran into was the final push into github, which I have shown above.
+keys pressed: To access my commit message: `git commit -m "changed index1 to index2"`, I had to press `<up><up><up><enter>` since this line was 3 up, and this was how I accessed this command. After, I had to press `<up><up><enter>` to access my `git add ListExamples.java`. Finally, to push my work into github I just had to use `<up><enter>` to acces my `git push`. This is where my commands were sitting in the history. However, I ran into an issue to push to my Git Hub even though the `git commit` and `git add` worked fine. The only problem I ran into was the final push into github, which I have shown above.
 
 
 ## Conclusion
