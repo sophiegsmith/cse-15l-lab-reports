@@ -6,13 +6,47 @@ In this week's lab, we worked on key board commands and getting comfortable with
 
 **Log into ieng6**
 
+![Image](labreport4pic1.jpg)
+
+keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` I had to use the up arrow key 18 times to get to the command `ssh` command to login. The command was 18 up in the search history for me to access it. Since I logged in this morning, to access my ssh in ucsd, it remembered and allowed me to login and access it.
+
+
 **Fork the Repository**
 
+![Image](labreport4pic2.jpg)
+
+keys pressed: To access the `cat /home/linux/ieng6/oce/3m/sos006/.ssh/id_rsa.pub` `<up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` I had to use the arrow up key 14 times to access it in the bash history. This was the way to access it for me. 
+
+  
 **Show the test failure**
+
+![Image](labreport4pic3.jpg)
+
+keys pressed: To access the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` `<up><up><up><up><up><up><up><up><up><up><up><enter>` I had to use the up arrow key 11 times to access this command in my bash history to show that the tests failed. Similarily with the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`, I had to press `<up><up><up><up><up><up><up><up><up><up><enter>`. This gives the test failure as show above. 
+
 
 **Edit code file**
 
+![Image](labreport4pic4.jpg)
+
+keys pressed: To access the `vim ListExamples.java` in my history I had to press the keys `<up><up><up><up><up><Enter>` since it was sitting 6 lines up in my hitory. Now to access the file itself, I had to use `<i>` to go into the vim insert mode. Then, I had to use the key `<j>` about 20 times to move down to the line where it says `change index1 to index2`. After I used key `<l>` about 5 times to move the cursor until I hit the 1 after index. I then pressed `<delete>` and typed `2`. After, I pressed `<ESC>` to exit out of insert mode and into normal mode. Then, I used the command `:wq` to save and quit my work.
+
+
 **Show the test succeeds**
 
+![Image](labreport4pic5.jpg)
+
+keys pressed: To acces the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, i had to press `<up><up><up><up><up><enter>` since this command was about 5 lines up so I had to up arrow 5 times to access it. For the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` I had to press `<up><up><up><enter>` since the command was 4 lines up so I had to use the up arrow key command 5 times to access it. After these two commands we got the output shown above. 
+
+
 **Commit and Push the Results**
+
+![Image](labreport4pic6.jpg)
+
+keys pressed: To access my commit message: `git commit -m "changed index1 to index2"`, I had to press `<up><up><up><enter>` since this line was 3 up, and this was how I accessed this command. After, I had to press `<up><up><enter>` to access my `git add ListExamples.java`. Finally, to push my work into github I just had to use `<up><enter>` to acces my `git push`. This is where my commands were sitting in the history. However I ran into an issue to push to my github even though the `git commit` and `git add` worked fine. The only problem I ran into was the final push into github, which I have shown above.
+
+
+## Conclusion
+
+In my opinion, I think the purpose of this lab was to hone in our keyboard skills and try to shorten the amount of time it takes to edit and run steps. Additionally, it felt like the goal of this lab was to practice and become more fluent with using keys such as <tab> <up> <down> and improve the speed of our workflow. 
 
