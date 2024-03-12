@@ -15,7 +15,11 @@ keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><
 
 ![Image](labreport4pic2.jpg)
 
+![Image](lab4redopic2.jpg)
+
 keys pressed: To access the `cat /home/linux/ieng6/oce/3m/sos006/.ssh/id_rsa.pub` `<up><up><up><up><up><up><up><up><up><up><up><up><up><enter>` I had to use the arrow up key 14 times to access it in the bash history. This was the way to access it for me. 
+
+edit: to address this comment from my gradescope, I went to check if this repository cloned properly and it did since it is existing in my directory. keys pressed: `git clone <ssh>`. Since not in my history, I had to type the command itself. 
 
   
 **Show the test failure**
@@ -41,12 +45,23 @@ keys pressed: To acces the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13
 
 **Commit and Push the Results**
 
-![Image](labreport4pic6.jpg)
+![Image](lab4redopic3.jpg)
 
-keys pressed: To access my commit message: `git commit -m "changed index1 to index2"`, I had to press `<up><up><up><enter>` since this line was 3 up, and this was how I accessed this command. After, I had to press `<up><up><enter>` to access my `git add ListExamples.java`. Finally, to push my work into github I just had to use `<up><enter>` to acces my `git push`. This is where my commands were sitting in the history. However, I ran into an issue to push to my Git Hub even though the `git commit` and `git add` worked fine. The only problem I ran into was the final push into github, which I have shown above.
+![Image](lab4redopic1.jpg)
 
+![Image](lab4redopic4.jpg)
+
+
+keys pressed: To access my commit message: `git commit -m "changed index1 to index2"`, I had to press `<up><up><up><enter>` since this line was 3 up, and this was how I accessed this command. After, I had to press `<up><up><enter>` to access my `git add ListExamples.java`. Finally, to push my work into github I just had to use `<up><enter>` to acces my `git push`. This is where my commands were sitting in the history. 
+
+edit: Since my repository did clone properly I was able to use the command `git init` to see if it would push to the right repository. Shown in pics above. keys pressed: `git init`, `git add .`, `git status`, and the following commands shown in the images above. Since it was not sitting in my history I had to use the actual commands themselves, and `<up><down>` for the message in `lab4redopic1`
+
+![Image](lab4redopic5.jpg)
+
+We observe that it succesfully pushed into the repository with the commit message. 
 
 ## Conclusion
 
-In my opinion, I think the purpose of this lab was to hone in our keyboard skills and try to shorten the amount of time it takes to edit and run steps. Additionally, it felt like the goal of this lab was to practice and become more fluent with using keys such as <tab> <up> <down> and improve the speed of our workflow. 
+In my opinion, I think the purpose of this lab was to hone in our keyboard skills and try to shorten the amount of time it takes to edit and run steps. Additionally, it felt like the goal of this lab was to practice and become more fluent with using keys such as <tab> <up> <down> and improve the speed of our workflow. In sections **Fork the repository** and **Commit and Push the Results** I address the comments from gradescope and provide the following edits.
+
 
