@@ -28,3 +28,4 @@ Finally, here's how I would reply to a student if they needed help.
 ## Part 2 - Reflection
 
 I would say the most interesting thing I learned in the labs is vim. For some reason I liked it and thought it was fun to do. During the lab where we did the vim tutorials, I found it fun because it felt like those typing practice websites. Additionally, the last few labs and skill demo we did were fun because we were using vim. 
+Additionally, in my opinion, I thought it was better when catching mistakes, and not accidentally typing the wrong things, which I have done before. Thus, I definitely enjoyed learning vim :)
